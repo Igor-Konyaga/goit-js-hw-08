@@ -4,4 +4,3 @@ import { galleryItems } from './gallery-items';
 
 console.log(galleryItems);
 
-console.log(1223)
