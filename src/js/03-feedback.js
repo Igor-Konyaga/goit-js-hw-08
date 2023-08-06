@@ -32,8 +32,9 @@ function handleFormSubmit(e) {
 
   if (!emailValue || !messageValue) {
     alert('Не усі поля заповнені!!!');
-  } 
+  } else {
     console.log(dataForm);
     formEl.reset();
     localStorage.removeItem(KEY_STORAGE);
+  }
 }
