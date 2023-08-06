@@ -11,7 +11,7 @@ const galleryEl = document.querySelector(".gallery");
 const galleryLayout = galleryItems
   .map(
     ({ preview, original, description }) =>
-      `<li class="gallery__item">
+      `<li class="gallery__item item">
   <a class="gallery__link" href="${original}">
     <img
       class="gallery__image"
