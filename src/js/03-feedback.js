@@ -13,6 +13,8 @@ const currentStorage = JSON.parse(localStorage.getItem(KEY_STORAGE));
 if (currentStorage) {
   formEl.email.value = currentStorage.email || '';
   formEl.message.value = currentStorage.message || '';
+  dataForm.email = currentStorage.email || '';
+  dataForm.message = currentStorage.message || '';
 }
 
 function handleFormInput(e) {
